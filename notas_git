@@ -1,0 +1,6 @@
+--------------------GITHUB--------------------
+Generar una nueva llave SSH: (Cualquier sistema operativo)
+ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
+
+Agrega tu llave
+ssh-add -K ~/.ssh/id_rsa
