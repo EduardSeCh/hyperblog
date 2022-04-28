@@ -1,3 +1,23 @@
+GIT
+git init: inicia el repositorio
+git status: saber el estado del repo
+git add NombreRepositorio: agregarlo al stageindex
+git rm --cached archivo: removerlo del stageindex
+git config (--list): mostrar lista configuraciones de git
+git config --global user.name "NOmbreJsuario": poner usuario
+git config --global user.email "correo@gmail.com": poner correo del usuaio
+--staff: Para cambios especificos
+git log (--staff ): ver la historia de los commits
+git show archivo: ver los cambios del archivo
+git diff commit commitAcomparar
+git reset 264bb61823e4dc9379202a7dd3132b5351eb3e0d --hard: Regresa TODO al commit puesto y TODO lo despues de...se borra
+git checkout commit: cambiar entre commits
+
+
+
+
+
+
 --------------------GITHUB--------------------
 Generar una nueva llave SSH: (Cualquier sistema operativo)
 ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
