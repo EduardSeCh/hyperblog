@@ -38,7 +38,7 @@ git reset id-commit: Nos lleva a cualquier commit no importa la rama, ya que ide
 git checkout rama-o-id-commit: Nos lleva a cualquier commit sin borrar los commit posteriores al tag seleccionado.
 --------------TIP----------------
 git commit -am "Comentario": hacer el add de inmediato (importante haber hecho una vez add).
-
+git merge ramaACombinar "Comentario": Crea la fusion de la rama que estas con la que quieras combinar
 
 
 
