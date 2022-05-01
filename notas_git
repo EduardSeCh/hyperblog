@@ -12,8 +12,32 @@ git show archivo: ver los cambios del archivo
 git diff commit commitAcomparar
 git reset 264bb61823e4dc9379202a7dd3132b5351eb3e0d --hard: Regresa TODO al commit puesto y TODO lo despues de...se borra
 git checkout commit: cambiar entre commits
-
-
+git rm --cached: Elimina los archivos de nuestro repositorio local y del área de staging, pero los mantiene en nuestro disco duro.
+git rm --force: Elimina los archivos de Git y del disco duro.
+git log --oneline - Te muestra el id commit y el título del commit.
+git log --decorate- Te muestra donde se encuentra el head point en el log.
+git log --stat - Explica el número de líneas que se cambiaron brevemente.
+git log -p- Explica el número de líneas que se cambiaron y te muestra que se cambió en el contenido.
+git shortlog - Indica que commits ha realizado un usuario, mostrando el usuario y el titulo de sus commits.
+git log --graph --oneline --decorate y
+git log --pretty=format:"%cn hizo un commit %h el dia %cd" - Muestra mensajes personalizados de los commits.
+git log -3 - Limitamos el número de commits.
+git log --after=“2018-1-2” ,
+git log --after=“today” y
+git log --after=“2018-1-2” --before=“today” - Commits para localizar por fechas.
+git log --author=“Name Author” - Commits realizados por autor que cumplan exactamente con el nombre.
+git log --grep=“INVIE” - Busca los commits que cumplan tal cual está escrito entre las comillas.
+git log --grep=“INVIE” –i- Busca los commits que cumplan sin importar mayúsculas o minúsculas.
+git log – index.html- Busca los commits en un archivo en específico.
+git log -S “Por contenido”- Buscar los commits con el contenido dentro del archivo.
+git log > log.txt - guardar los logs en un archivo txt
+git branch -nombre de la rama-: Con este comando se genera una nueva rama.
+git checkout -nombre de la rama-: Con este comando puedes saltar de una rama a otra.
+git checkout -b rama: Genera una rama y nos mueve a ella automáticamente.
+git reset id-commit: Nos lleva a cualquier commit no importa la rama, ya que identificamos el id del tag., eliminando el historial de los commit posteriores al tag seleccionado.
+git checkout rama-o-id-commit: Nos lleva a cualquier commit sin borrar los commit posteriores al tag seleccionado.
+--------------TIP----------------
+git commit -am "Comentario": hacer el add de inmediato (importante haber hecho una vez add).
 
 
 
