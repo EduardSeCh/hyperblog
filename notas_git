@@ -36,6 +36,7 @@ git checkout -nombre de la rama-: Con este comando puedes saltar de una rama a o
 git checkout -b rama: Genera una rama y nos mueve a ella automáticamente.
 git reset id-commit: Nos lleva a cualquier commit no importa la rama, ya que identificamos el id del tag., eliminando el historial de los commit posteriores al tag seleccionado.
 git checkout rama-o-id-commit: Nos lleva a cualquier commit sin borrar los commit posteriores al tag seleccionado.
+git branch -M main: Cambiar de nombre la rama
 --------------TIP----------------
 git commit -am "Comentario": hacer el add de inmediato (importante haber hecho una vez add).
 git merge ramaACombinar "Comentario": Crea la fusion de la rama que estas con la que quieras combinar
