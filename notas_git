@@ -58,7 +58,15 @@ git push origin master:main :Por último, ahora sí podemos hacer git push para 
 Generar una nueva llave SSH: (Cualquier sistema operativo)
 ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
 
+Ver si las llaves esta corriendo
+eval $(ssh-agent -s)
+
 Agrega tu llave
-ssh-add -K ~/.ssh/id_rsa
+ssh-add ~/.ssh/id_rsa
+
+pegar la llave publica a github
+
+Agregar ssh primera vez al repo
+git remote set-url link_Del_SSH
 IMPORTANTE------------------------------------
 git push origin master:main : Para mandar lo de master(local) a main(remoto).
