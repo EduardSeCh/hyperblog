@@ -41,6 +41,19 @@ git commit -am "Comentario": hacer el add de inmediato (importante haber hecho u
 git merge ramaACombinar "Comentario": Crea la fusion de la rama que estas con la que quieras combinar
 
 --------------------GITHUB--------------------
+Cómo conectar un repositorio de Github a nuestro documento local
+Si queremos conectar el repositorio de GitHub con nuestro repositorio local, que creamos usando el comando git init, debemos ejecutar las siguientes instrucciones:
+
+git remote add origin URL :PGuardar la URL del repositorio de GitHub con el nombre de origin
+
+git remote
+git remote -v : Verificar que la URL se haya guardado correctamente
+
+git pull origin main --allow-unrelated-histories :Traer la versión del repositorio remoto y hacer merge para crear un commit con los archivos de ambas partes.
+
+git push origin master:main :Por último, ahora sí podemos hacer git push para guardar los cambios de nuestro repositorio local en GitHub
+
+----------------------------------------------
 Generar una nueva llave SSH: (Cualquier sistema operativo)
 ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
 
