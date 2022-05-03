@@ -68,5 +68,15 @@ pegar la llave publica a github
 
 Agregar ssh primera vez al repo
 git remote set-url link_Del_SSH
+
+poner solamente por primera vez 
+git pull origin main
+
+Por si la hace de pedo con reconciliar las ramas
+git config pull.rebase false
+
+git pull origin main --allow-unrelated-histories :Traer la versión del repositorio remoto y hacer merge para crear un commit con los archivos de ambas partes.
+
+Y listo!!
 IMPORTANTE------------------------------------
 git push origin master:main : Para mandar lo de master(local) a main(remoto).
