@@ -80,3 +80,9 @@ git pull origin main --allow-unrelated-histories :Traer la versión del reposito
 Y listo!!
 IMPORTANTE------------------------------------
 git push origin master:main : Para mandar lo de master(local) a main(remoto).
+---------------------------------------------
+alias nombredelalias="toda la linea de comando a utilizar"
+--------------------------------------------
+TAGS
+(-a: adderir nuevo, v: Version, -m: comentario)
+git tag -a v0.1 -m "Resultado de las primeras clases del curso" commit
