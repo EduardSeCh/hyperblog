@@ -89,3 +89,10 @@ git tag -a v0.1 -m "Resultado de las primeras clases del curso" commit
 git show-ref --tags: mostrar el tag con su commit
 git push origin --tags: Enviar los tags a github
 git tag -d NombreDelTag: elimnar el tag
+git push origin --tags: Enviar los tags a github
+git push origin :refs/tags/NombreDelTag: Eliminarlo desde github
+---------------------------------------------
+Extra
+git config --global alias.superlog "log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
+En la terminal para guardar el alias
+----------------------------------------------
