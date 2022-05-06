@@ -86,3 +86,6 @@ alias nombredelalias="toda la linea de comando a utilizar"
 TAGS
 (-a: adderir nuevo, v: Version, -m: comentario)
 git tag -a v0.1 -m "Resultado de las primeras clases del curso" commit
+git show-ref --tags: mostrar el tag con su commit
+git push origin --tags: Enviar los tags a github
+git tag -d NombreDelTag: elimnar el tag
